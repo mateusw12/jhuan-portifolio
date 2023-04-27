@@ -1,13 +1,14 @@
 import React from "react";
 import Header from "./Header";
+import "../styles/Content.css";
 
 const Content = ({ children }) => {
   return (
     <div>
-      <Header></Header>
-      <div className="container" style={{ marginTop: "80px" }}>
-        {children}
+      <div className="fixed-top">
+        <Header></Header>
       </div>
+      <div className="container container-margin">{children}</div>
     </div>
   );
 };

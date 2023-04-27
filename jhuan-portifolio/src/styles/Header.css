@@ -19,6 +19,11 @@
 
 .social-media-link {
     margin: 0 5px;
+    transition: transform 0.3s;
+}
+
+.social-media-link:hover {
+    transform: scale(1.2);
 }
 
 @media (max-width: 768px) {
