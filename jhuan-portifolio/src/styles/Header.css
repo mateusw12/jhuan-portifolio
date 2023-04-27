@@ -1,0 +1,60 @@
+.nav-bar {
+    background: linear-gradient(to left, #ffab6b 50%, #fff348);
+    color: #000;
+}
+
+.profile-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.social-media-link {
+    margin: 0 5px;
+}
+
+@media (max-width: 768px) {
+    .social-media-icons {
+        display: flex;
+        align-items: center;
+    }
+
+    .social-media-icons a {
+        margin-right: 10px;
+    }
+
+    .align-social-media {
+        padding-top: 10px;
+        display: flex !important;
+        flex-direction: row !important;
+    }
+
+}
+
+.color1 {
+    color: #ffab6b;
+}
+
+.color2 {
+    color: #fff348;
+}
+
+.color3 {
+    color: #311302;
+}
+
+.color4 {
+    color: #7d7673;
+}
+
+.color5 {
+    color: #e2e2e2;
+}
