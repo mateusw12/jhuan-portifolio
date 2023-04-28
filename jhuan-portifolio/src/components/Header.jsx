@@ -44,7 +44,7 @@ const Header = ({ isNavbarCollapsed, handleNavbarCollapse }) => {
           </Nav>
           <Nav className="align-social-media">
             <a
-              href="https://www.linkedin.com/in/mateus-walz-b40866137/"
+              href="https://instagram.com/jhuan_5ouza?igshid=ZDdkNTZiNTM="
               target="_blank"
               rel="noopener noreferrer"
               title="Instagram"
@@ -53,7 +53,7 @@ const Header = ({ isNavbarCollapsed, handleNavbarCollapse }) => {
               <FaInstagram size={30} color="#C13584" />
             </a>
             <a
-              href="https://www.linkedin.com/in/mateus-walz-b40866137/"
+              href="https://www.linkedin.com/in/jhuan-souza-14b77b222"
               target="_blank"
               rel="noopener noreferrer"
               title="Facebook"
@@ -62,7 +62,7 @@ const Header = ({ isNavbarCollapsed, handleNavbarCollapse }) => {
               <FaFacebook size={30} color="#1877F2" />
             </a>
             <a
-              href="https://www.linkedin.com/in/mateus-walz-b40866137/"
+              href="https://github.com/Jhuan12016"
               target="_blank"
               rel="noopener noreferrer"
               title="GitHub"
