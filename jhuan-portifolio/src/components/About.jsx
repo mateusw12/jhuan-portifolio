@@ -10,10 +10,20 @@ const About = () => {
         <p>
           Olá, me chamo Jhuan de Souza, tenho 24 anos, sou de Joinville-SC.
           Estou cursando Bacharel em Engenharia de Software pela
-          UNIVILLE(Universidade da Região de Joinville). Tenho experiência de 1
-          ano em Analista de T.I, cujo área essa que estou trabalhando
-          atualmente, inspecionando servidores, manutenção em desktops e
-          infraestrutura de rede.
+          UNIVILLE(Universidade da Região de Joinville).
+        </p>
+        <p>
+          Meus principais hobys são ler e estudar sobre tecnologia, algumas das
+          linguagens que estou aprimorando é Java Script e Node Js. Gosto também
+          de jogar video game, praticar esportes, especificamente futebol.
+        </p>
+        <p>
+          Fiz a transição de carreira para tencologia a cerca de 1 ano atrás,
+          antes trabalhava em area produtiva. então decidi realizar a transição
+          pois sempre gostei de estudar sobre e iniciei a graduação por conta
+          disso. Possuo experiência de 1 ano em Analista de T.I, cujo área essa
+          que estou trabalhando atualmente, inspecionando servidores, manutenção
+          em desktops e infraestrutura de rede.
         </p>
         <p>
           Dentre minhas atividades cotidianas, inclui-se também atuação na área
