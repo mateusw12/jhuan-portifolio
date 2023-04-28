@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { About, Content, Home, Skills } from "./components/index";
+import { About, Content, Home, Project, Skills } from "./components/index";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -13,6 +13,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/project" element={<Project />} />
         </Routes>
       </Content>
     </BrowserRouter>
