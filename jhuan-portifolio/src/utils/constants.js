@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export const projects = [
     {
@@ -8,4 +9,17 @@ export const projects = [
             " em dados de padaria, como produtos, funcionários e estoque.",
         repositoryLink: "https://github.com/mateusw12/Padaria"
     }
+];
+
+export const socialMedias = [
+    { link: "https://instagram.com/jhuan_5ouza?igshid=ZDdkNTZiNTM=", title: "Instagram", icon: <FaInstagram size={30} color="#C13584" /> },
+    { link: "https://www.facebook.com/jhuan.souza17?mibextid=ZbWKwL", title: "Facebook", icon: <FaFacebook size={30} color="#1877F2" /> },
+    { link: "https://www.linkedin.com/in/mateus-walz-b40866137/", title: "Linkedin", icon: <FaLinkedin size={30} color="#0077B5" /> },
+    { link: "https://github.com/Jhuan12016", title: "GitHub", icon: <FaGithub size={30} color="#211F1F" /> },
+];
+
+export const pages = [
+    { link: "/about", title: "Sobre" },
+    { link: "/skills", title:"Habilidades"},
+    { link: "/project", title: "Projetos" },
 ];
