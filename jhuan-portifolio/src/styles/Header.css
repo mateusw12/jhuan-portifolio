@@ -26,6 +26,7 @@
     transform: scale(1.2);
 }
 
+
 @media (max-width: 768px) {
     .social-media-icons {
         display: flex;

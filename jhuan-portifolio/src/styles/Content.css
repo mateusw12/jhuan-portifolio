@@ -2,8 +2,16 @@
     margin-top: calc(100vh - 400px);
 }
 
+.nav-bar.collapsed+.container-margin {
+    margin-top: calc(100vh - 400px);
+}
+
 @media (max-width: 768px) {
     .container-margin {
         margin-top: 170px;
+    }
+
+    .pushed-down {
+        margin-top: calc(100vh - 565px);
     }
 }
