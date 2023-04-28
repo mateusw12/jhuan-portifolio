@@ -1,4 +1,5 @@
 import React from "react";
+import { hardSkills, softSkills } from "../utils/constants";
 
 import "../styles/Skills.css";
 
@@ -14,12 +15,9 @@ const Skills = () => {
         </div>
         <div>
           <ul>
-            <li className="pointer-item"> Proativo</li>
-            <li className="pointer-item">Organizado</li>
-            <li className="pointer-item">Trabalho em equipe</li>
-            <li className="pointer-item">Ágil</li>
-            <li className="pointer-item">Criativo</li>
-            <li className="pointer-item">Flexível</li>
+            {softSkills.map((item) => (
+              <li className="pointer-item">{item.skill}</li>
+            ))}
           </ul>
         </div>
       </div>
@@ -30,15 +28,13 @@ const Skills = () => {
         </div>
         <div>
           <ul>
-            <li className="pointer-item">Cursando Engenharia de Software</li>
-            <li className="pointer-item">Analista de T.I</li>
-            <li className="pointer-item">Trabalho em equipe</li>
-            <li className="pointer-item">Técnico da qualidade</li>
-            <li className="pointer-item">JavaScript, TypeScript, HTML, CSS</li>
-            <li className="pointer-item">Node Js</li>
+            {hardSkills.map((item) => (
+              <li className="pointer-item">{item.skill}</li>
+            ))}
           </ul>
         </div>
       </div>
+      <hr />
     </div>
   );
 };

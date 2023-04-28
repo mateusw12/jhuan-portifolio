@@ -1,7 +1,11 @@
 .project-container {
-    background-color: rgb(226 226 226 / 33%) !important;
+    background-color: rgb(226 226 226 / 66%) !important;
     border-radius: 25px;
     padding: 10px;
+}
+
+.project-content {
+    padding-bottom: 20px;
 }
 
 hr {
@@ -26,6 +30,6 @@ hr {
     text-align: justify;
 }
 
-.project-footer{
+.project-footer {
     text-align: center;
 }

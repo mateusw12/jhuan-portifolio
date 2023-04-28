@@ -10,14 +10,17 @@ const Project = () => {
       <div className="projects-title">
         <h1>Projetos</h1>
       </div>
-      {projects.map((item) => (
-        <ProjectCard
-          projectTitle={item.projectTitle}
-          projectBody={item.projectBody}
-          repositoryLink={item.repositoryLink}
-        />
-      ))}
-      <hr />
+      <div>
+        {projects.map((item) => (
+          <div className="project-content">
+            <ProjectCard
+              projectTitle={item.projectTitle}
+              projectBody={item.projectBody}
+              repositoryLink={item.repositoryLink}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
