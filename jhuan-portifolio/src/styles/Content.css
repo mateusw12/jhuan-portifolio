@@ -12,6 +12,6 @@
     }
 
     .pushed-down {
-        margin-top: calc(100vh - 565px);
+        margin-top: calc(100vh - 500px);
     }
 }
