@@ -1,3 +1,7 @@
+.skills-title {
+    font-family: sans-serif;
+}
+
 .skills-container {
     display: flex;
     align-items: center;
