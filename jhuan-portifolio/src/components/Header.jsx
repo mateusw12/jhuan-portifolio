@@ -2,8 +2,8 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { pages, socialMedias } from "../utils/constants";
 
 import "../styles/Header.css";
 
@@ -38,47 +38,22 @@ const Header = ({ isNavbarCollapsed, handleNavbarCollapse }) => {
         />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/about">Sobre</Nav.Link>
-            <Nav.Link href="/skills">Habilidades</Nav.Link>
-            <Nav.Link href="/project">Projetos</Nav.Link>
+            {pages.map((item) => (
+              <Nav.Link href={item.link}>{item.title}</Nav.Link>
+            ))}
           </Nav>
           <Nav className="align-social-media">
-            <a
-              href="https://www.linkedin.com/in/mateus-walz-b40866137/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Instagram"
-              className="social-media-link"
-            >
-              <FaInstagram size={30} color="#C13584" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/mateus-walz-b40866137/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Facebook"
-              className="social-media-link"
-            >
-              <FaFacebook size={30} color="#1877F2" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/mateus-walz-b40866137/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="GitHub"
-              className="social-media-link"
-            >
-              <FaGithub size={30} color="#211F1F" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/mateus-walz-b40866137/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Linkedin"
-              className="social-media-link"
-            >
-              <FaLinkedin size={30} color="#0077B5" />
-            </a>
+            {socialMedias.map((item) => (
+              <a
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={item.title}
+                className="social-media-link"
+              >
+                {item.icon}
+              </a>
+            ))}
           </Nav>
         </Navbar.Collapse>
       </Container>
