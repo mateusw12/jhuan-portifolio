@@ -20,6 +20,25 @@ export const socialMedias = [
 
 export const pages = [
     { link: "/about", title: "Sobre" },
-    { link: "/skills", title:"Habilidades"},
+    { link: "/skills", title: "Habilidades" },
     { link: "/project", title: "Projetos" },
+];
+
+export const softSkills = [
+    { skill: "Proativo" },
+    { skill: "Organizado" },
+    { skill: "Trabalho em equipe" },
+    { skill: "Ágil" },
+    { skill: "Criativo" },
+    { skill: "Flexível" },
+];
+
+export const hardSkills = [
+    { skill: "Cursando Engenharia de Software" },
+    { skill: "Analista de T.I" },
+    { skill: "Técnico da qualidade" },
+    { skill: "JavaScript, TypeScript, HTML, CSS" },
+    { skill: "Node Js" },
+    { skill: "Angular" },
+    { skill: "java Spring Boot" },
 ];

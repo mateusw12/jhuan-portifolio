@@ -21,9 +21,12 @@ const About = () => {
           Fiz a transição de carreira para tencologia a cerca de 1 ano atrás,
           antes trabalhava em area produtiva. então decidi realizar a transição
           pois sempre gostei de estudar sobre e iniciei a graduação por conta
-          disso. Possuo experiência de 1 ano em Analista de T.I, cujo área essa
-          que estou trabalhando atualmente, inspecionando servidores, manutenção
-          em desktops e infraestrutura de rede.
+          disso.
+        </p>
+        <p>
+          Possuo experiência de 1 ano em Analista de T.I, cujo área essa que
+          estou trabalhando atualmente, inspecionando servidores, manutenção em
+          desktops e infraestrutura de rede.
         </p>
         <p>
           Dentre minhas atividades cotidianas, inclui-se também atuação na área
