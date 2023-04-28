@@ -7,9 +7,18 @@ import { Link } from "react-router-dom";
 
 import "../styles/Header.css";
 
-const Header = () => {
+const Header = ({ isNavbarCollapsed, handleNavbarCollapse }) => {
+  const handleToggleCollapse = () => {
+    handleNavbarCollapse(!isNavbarCollapsed);
+  };
+
   return (
-    <Navbar id="nav" className="nav-bar" collapseOnSelect expand="lg">
+    <Navbar
+      id="nav"
+      className={`nav-bar ${isNavbarCollapsed ? "collapsed" : ""}`}
+      collapseOnSelect
+      expand="lg"
+    >
       <Container>
         <Navbar.Brand>
           <Link to={{ pathname: "/" }}>
@@ -23,7 +32,10 @@ const Header = () => {
             </div>
           </Link>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          onClick={handleToggleCollapse}
+        />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/about">Sobre</Nav.Link>
